@@ -1,0 +1,19 @@
+{
+  "name": "slackbot-agile",
+  "version": "1.0.0",
+  "description": "This is a slackbot project which provide agile project status through JIRA",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kyoungwook Park",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "node-schedule": "^2.0.0",
+    "slack-node": "^0.1.8",
+    "slackbots": "^1.2.0"
+  }
+}
